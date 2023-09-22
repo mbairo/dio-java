@@ -25,9 +25,13 @@ public class SmartTv {
     public void diminuirCanal() {
         canal--;
     }
-    
+
     public void mudarCalnal(int novoCanal) {
         canal = novoCanal;
+    }
+
+    public String formatarCep(long cep) {
+        return "1";
     }
 
 
